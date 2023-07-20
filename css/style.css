@@ -1,31 +1,45 @@
-.navbar{
-    height: 10rem;
-    width: 100vw;
-    display: flex;
-    border: 2px solid  red;
-
-    /* background: #000; */
-
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
 }
-ul{
-    text-decoration: none;
-    display: flex;
-    
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  height: 8.6rem;
 }
-li{
-    
-    
-    
-    
-    
-
-
+.name {
+  color: #fff;
+  padding: 2rem 2rem;
+  font-size: 5ch;
 }
-.links{
-    
-    
+.links {
+  color: #fff;
+  padding: 4rem 2rem;
+  font-size: 3ch;
+  float: right;
+  display: flex;
+  list-style: none;
+  gap: 4rem;
 }
-.left display{
-    padding-right: 20;
-    image-resolution: 50px;
+.left-display {
+  float: left;
+}
+.headphone {
+  height: 20rem;
+}
+.right-display {
+  padding: 6rem 20vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+}
+button {
+  width: 10ch;
+  height: 2rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.5rem;
+  appearance: none;
 }
