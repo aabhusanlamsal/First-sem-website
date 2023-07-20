@@ -1,0 +1,86 @@
+.navbar{
+    height: 10rem;
+    width: 100vw;
+    display: flex;
+    border: 2px solid  red;
+
+    /* background: #000; */
+
+}
+ul{
+    text-decoration: none;
+    
+}
+li{
+    
+    
+    
+    .logo a img{
+        position: absolute;
+    width: 186px;
+    height: 138px;
+    left: 0px;
+    top: 25px;
+    
+    }
+    
+    .navbar li{
+        float:left;
+        list-style:none ;
+        padding: 0, 0 40px 40px;
+    }
+    .navbar ul{
+        padding-top: 46px;
+        margin-left: 200px;
+    }
+    .navbar li a {
+        padding: 20px 20px;
+        text-decoration: none;
+        color: black;
+        position: absolute;
+    left: 304px;
+    top: 78px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+       
+    }
+    .navbar li.home a{
+        position: absolute;
+    left: 490px;
+    top: 55px;
+    
+    }
+    .navbar li.about a{
+        position: absolute;
+    left: 710px;
+    top: 55px;
+    
+    }
+    .navbar li.contact a{
+        position: absolute;
+    left: 980px;
+    top: 55px;
+    }
+    
+    .navbar li.delivery a{
+        position: absolute;
+        left: 1250px;
+        top: 55px;
+    
+    
+
+
+}
+.links{
+    
+}
+.img{
+padding-left: 250px;;
+}
+.p{
+    text-align: center;
+
+}

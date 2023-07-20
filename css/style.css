@@ -1,0 +1,31 @@
+.navbar{
+    height: 10rem;
+    width: 100vw;
+    display: flex;
+    border: 2px solid  red;
+
+    /* background: #000; */
+
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    
+}
+li{
+    
+    
+    
+    
+    
+
+
+}
+.links{
+    
+    
+}
+.left display{
+    padding-right: 20;
+    image-resolution: 50px;
+}
